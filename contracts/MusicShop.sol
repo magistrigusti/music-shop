@@ -86,6 +86,8 @@ contract MusicShop {
     );
 
     currentOrderId++;
+
+    emit AlbumBought(albumToBuy.uid, msg.sender, block.timestamp);
   }
 
   function delivered(uint256 _index) external onlyOwner {
