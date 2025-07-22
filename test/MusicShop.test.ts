@@ -1,4 +1,4 @@
-import { loadFixture, ethers, expect } from "./setup.js";
+import { loadFixture, ethers, expect } from "./setup";
 
 describe("MusicShop", function() {
   async function deploy() {
