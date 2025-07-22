@@ -115,4 +115,6 @@ contract MusicShop {
 
     return albumsList;
   }
+
+  fallback() external {}
 }

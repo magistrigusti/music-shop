@@ -9,7 +9,7 @@ const config: HardhatUserConfig = {
       evmVersion: "shanghai",
       optimizer: {
         enabled: true,
-        ryns: 200,
+        runs: 200,
       }
     }
   },
